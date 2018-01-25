@@ -22,3 +22,5 @@ Vous pouvez nous retrouvez sur
 ![image instagram](http://ibagy.com.br/wp-content/uploads/2017/01/instagram-ibagy.png)Instagram
 ![image linkedin](https://www.britishairways.com/assets/images/global/site/icons/linkedin-button-20x20.png)LinkedIn
 ![image messegner](http://www.dgabc.com.br/Content/themes/dgabc2013/images/icone-comentarios.png)Messenger
+
+![Image GIF](http://www.animatedimages.org/data/media/56/animated-computer-image-0178.gif)
