@@ -16,11 +16,11 @@ Vous apprendrez a bien gerer votre ordinateur, ainsi que votre site internet; vo
 
 
 Vous pouvez nous retrouvez sur  
-![image facebook](https://www.britishairways.com/assets/images/global/site/icons/facebook_Button_20x20.png)[Facebook](www.facebook.com)
-![image youtube](http://www.holhospaulista.com.br/wp-content/themes/holhostheme/images/icone-youtube.gif)YouTube
-![image twitter](https://www.britishairways.com/assets/images/global/site/icons/twitter_Button_20x20.png)Twitter
-![image instagram](http://ibagy.com.br/wp-content/uploads/2017/01/instagram-ibagy.png)Instagram
-![image linkedin](https://www.britishairways.com/assets/images/global/site/icons/linkedin-button-20x20.png)LinkedIn
-![image messegner](http://www.dgabc.com.br/Content/themes/dgabc2013/images/icone-comentarios.png)Messenger
+*![image facebook](https://www.britishairways.com/assets/images/global/site/icons/facebook_Button_20x20.png)[Facebook](www.facebook.com)
+*![image youtube](http://www.holhospaulista.com.br/wp-content/themes/holhostheme/images/icone-youtube.gif)[YouTube](www.youtube.com)
+*![image twitter](https://www.britishairways.com/assets/images/global/site/icons/twitter_Button_20x20.png)[Twitter](www.twitter.com)
+*![image instagram](http://ibagy.com.br/wp-content/uploads/2017/01/instagram-ibagy.png)[Instagram](www.instagram.com)
+*![image linkedin](https://www.britishairways.com/assets/images/global/site/icons/linkedin-button-20x20.png)[LinkedIn](www.linkedin.com)
+*![image messegner](http://www.dgabc.com.br/Content/themes/dgabc2013/images/icone-comentarios.png)[Messenger](www.messenger.com)
 
 ![Image GIF](http://www.animatedimages.org/data/media/56/animated-computer-image-0178.gif)
