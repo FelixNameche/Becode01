@@ -1,0 +1,91 @@
+initialiser un repo git = git init
+
+voir l'état actuel du projet = git status
+
+pour inclure dans les fichiers valide = git add "nomdefichier"
+
+Stocker les modification par étapes = git commit -m "description des changements"
+
+ajouter tout les fichier se terminant par .txt (par exemple) = git add '*.txt'
+
+historique de journal = git log
+
+Prendre un nom distant et une url de referenciel pour envoyer au server = git remote add origin https://github.com/try-git/try_git.git
+ 
+Pushing Remotely
+The push command tells Git where to put our commits when we're ready, and now we're ready. So let's push our local changes to our origin repo (on GitHub).
+The name of our remote is origin and the default local branch name is master. The -u tells Git to remember the parameters, so that next time we can simply run git push and Git will know what to do. Go ahead and push it!
+git push -u origin master
+
+Tirer à distance 
+Faisons semblant que le temps a passé. Nous avons invité d'autres personnes à notre projet GitHub qui ont apporté vos modifications, ont fait leurs propres commits et les ont poussés. 
+Nous pouvons vérifier les changements sur notre dépôt GitHub et dérouler toutes les nouvelles modifications en exécutant:
+
+git pull origin master
+
+Différences 
+Uh oh, il semble qu'il y ait eu des ajouts et des changements à la famille octocat. Jetons un coup d'oeil à ce qui est différent de notre dernier commit en utilisant la commande git diff. 
+Dans ce cas, nous voulons le diff de notre plus récent commit, auquel nous pouvons faire référence en utilisant le pointeur HEAD.
+git diff HEAD
+
+Différences étagées 
+Une autre grande utilité pour diff est de regarder les changements dans les fichiers qui ont déjà été mis en scène. Rappelez-vous, les fichiers mis en scène sont des fichiers que nous avons dit à git et qui sont prêts à être validés. 
+
+Utilisons git add pour mettre en scène octofamily / octodog.txt, que je viens d'ajouter à la famille pour vous.
+git add octofamilu/octodog.txt
+
+Différences étagées (suite) 
+Bon, maintenant allez-y et lancez git diff avec l'option --staged pour voir les changements que vous venez de mettre en scène. Vous devriez voir que octodog.txt a été créé.
+git diff --staged
+
+Réinitialiser la scène 
+Alors maintenant que octodog fait partie de la famille, octocat est déprimé. Puisque nous aimons octocat plus que octodog, nous ferons volte-face en supprimant octodog.txt. 
+Vous pouvez désactiver les fichiers en utilisant la commande git reset. Allez-y et supprimez octofamily / octodog.txt.
+git reset octofamily/octodog.txt
+
+Undo 
+git reset a fait un excellent travail de décompilation octodog.txt, mais vous remarquerez qu'il est toujours là. Il n'est plus mis en scène. Ce serait génial si nous pouvions revenir à la façon dont les choses se passaient avant l'arrivée de l'octodog qui a ruiné la fête. 
+Les fichiers peuvent être modifiés en utilisant la commande: git checkout - . Allez-y et débarrassez-vous de tous les changements depuis le dernier commit pour octocat.txt
+git checkout -- octocat.txt
+
+Branching Out 
+Lorsque les développeurs travaillent sur une fonctionnalité ou un bogue, ils créent souvent une copie (alias .branche) de leur code auquel ils peuvent effectuer des validations séparées. Ensuite, quand ils ont fini, ils peuvent fusionner cette branche dans leur branche principale principale. 
+Nous voulons supprimer tous ces octocats embêtants, alors créons une branche appelée clean_up, où nous ferons tout le travail:
+git branch clean_up
+
+Changement de branche 
+Super! Maintenant, si vous tapez une branche git, vous verrez deux branches locales: une branche principale nommée master et votre nouvelle branche clean_up. 
+Vous pouvez changer de branche en utilisant la commande git checkout . Essayez-le maintenant pour passer à la branche clean_up:
+git checkout clean_up
+
+Enlever toutes les choses
+Ok, vous êtes dans la branche clean_up. Vous pouvez enfin supprimer tous ces octocats embêtants en utilisant la commande git rm qui non seulement supprimera les fichiers réels du disque, mais mettra également en scène la suppression des fichiers pour nous.
+Vous allez vouloir utiliser à nouveau un caractère générique pour obtenir tous les octocats en un seul balayage, allez-y et lancez:
+git rm '*.txt'
+
+Commiting Branch Changes 
+Maintenant que vous avez supprimé tous les chats, vous devrez valider vos modifications. 
+N'hésitez pas à exécuter le statut git pour vérifier les changements que vous êtes sur le point de commettre.
+git commit -m "Remove all the cats"
+
+Revenir à master 
+Great, vous avez presque fini avec la correction de bogue, vous avez juste besoin de revenir à la branche master pour pouvoir copier (ou fusionner) vos changements de la branche clean_up dans le branche maîtresse.
+git checkout master
+
+Préparation à la fusion 
+Alrighty, le moment est venu où vous devez fusionner vos modifications de la branche clean_up dans la branche master. Prenez une grande respiration, ce n'est pas si effrayant. 
+Nous sommes déjà sur la branche master, nous avons juste besoin de dire à Git de fusionner la branche clean_up:
+git merge clean_up
+
+Garder les choses propres 
+Félicitations! Vous venez d'accomplir votre première correction de bogue réussie et de fusionner. Tout ce qui reste à faire est de nettoyer après vous. Puisque vous avez terminé avec la branche clean_up, vous n'en avez plus besoin. 
+Vous pouvez utiliser git branch -d pour supprimer une branche. Allez-y et supprimez la branche clean_up maintenant:
+git branch -d clean_up
+
+La poussée finale 
+Nous sommes ici, à la dernière étape. Je suis fier que vous ayez fait tout ce chemin, et ça a été super d'apprendre Git avec vous. Tout ce qu'il vous reste à faire maintenant est de pousser tout ce que vous avez travaillé sur votre dépôt distant, et vous avez terminé!
+git push
+
+La poussée finale 
+Super! Vous avez maintenant un petit avant-goût de la grandeur de Git. Vous pouvez jeter un oeil à la page de synthèse pour un peu plus d'informations sur Git et GitHub, oh, et bien sur votre badge!
+
