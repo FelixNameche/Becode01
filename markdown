@@ -7,11 +7,11 @@ Vous apprendrez a bien gerer votre ordinateur, ainsi que votre site internet; vo
 
 <h3>Vous retrouverez tout ce qu'il vous faut pour apprendre dans les règles de l'art;</h3>
 
-|Bien-être|Travail|Organisation|Divertissement|
-|:---------:|:-------:|:-----------:|:-------------:|
-|Cuisine semi-équipé à disposition|Espace Bureau + équipement fournis  |Communication           |Activité en groupe|
-|Bibliothèque |Espace d'isolation |entre-aide | Jeux de société |
-|Espace détente|Convivialité et respect|Réseaux|Radio|
+||Bien-être|Travail|Organisation|Divertissement|
+|:--:|:---------:|:-------:|:-----------:|:-------------:|
+|      1.    |Cuisine semi-équipé à disposition|Espace Bureau + équipement fournis  |Communication           |Activité en groupe|
+| 2. |Bibliothèque |Espace d'isolation |entre-aide | Jeux de société |
+|3.|Espace détente|Convivialité et respect|Réseaux|Radio|
 
 
 
